@@ -17,7 +17,7 @@ export const env = createEnv({
     POSTGRES_PASSWORD: z.string(),
     POSTGRES_DATABASE: z.string(),
     POSTGRES_URL_NO_SSL: z.string(),
-    POSTGRES_PRISMA_URL: z.string(),
+    POSTGRES_PRISMA_URL: z.string().url(),
   },
 
   /**
